@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-// MaxHeap struct ahs a slice that holds the array
+// MaxHeap struct has a slice that holds the array
 type MaxHeap struct {
 	array []int
 }
