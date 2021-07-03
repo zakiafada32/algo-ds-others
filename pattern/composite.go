@@ -57,20 +57,19 @@ func (branch *Branch) getLeaflets() []Leaflet {
 	return branch.leafs
 }
 
-// main method
-func main() {
+// func main() {
 
-	var branch = &Branch{name: "branch 1"}
+// 	var branch = &Branch{name: "branch 1"}
 
-	var leaf1 = Leaflet{name: "leaf 1"}
-	var leaf2 = Leaflet{name: "leaf 2"}
+// 	var leaf1 = Leaflet{name: "leaf 1"}
+// 	var leaf2 = Leaflet{name: "leaf 2"}
 
-	var branch2 = Branch{name: "branch 2"}
+// 	var branch2 = Branch{name: "branch 2"}
 
-	branch.add(leaf1)
-	branch.add(leaf2)
-	branch.addBranch(branch2)
+// 	branch.add(leaf1)
+// 	branch.add(leaf2)
+// 	branch.addBranch(branch2)
 
-	branch.perform()
+// 	branch.perform()
 
-}
+// }
