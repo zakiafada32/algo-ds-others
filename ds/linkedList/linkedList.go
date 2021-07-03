@@ -39,13 +39,13 @@ func (l *linkedList) deleteWithValue(value int) {
 	l.length -= 1
 }
 
-// func main() {
-// 	myList := linkedList{}
-// 	node1 := &node{data: 4}
-// 	node2 := &node{data: 10}
-// 	myList.prepend(node1)
-// 	myList.prepend(node2)
-// 	myList.printListData()
-// 	myList.deleteWithValue(4)
-// 	myList.printListData()
-// }
+func main() {
+	myList := linkedList{}
+	node1 := &node{data: 4}
+	node2 := &node{data: 10}
+	myList.prepend(node1)
+	myList.prepend(node2)
+	myList.printListData()
+	myList.deleteWithValue(4)
+	myList.printListData()
+}
