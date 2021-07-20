@@ -9,7 +9,7 @@ func quick(array []int) []int {
 		return array
 	}
 	left, right := 0, len(array)-1
-	pivot := rand.Intn(len(array))
+	pivot := rand.Intn(len(array)) % len(array)
 	array[right], array[pivot] = array[pivot], array[right]
 	for i := 0; i < len(array); i++ {
 		if array[i] < array[right] {
